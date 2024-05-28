@@ -16,58 +16,6 @@
         "created_at": "2024-03-14T16:51:07.214x",
         "slug": "tipo-tortas"
 
-  },
-  {
-    "_id": "entremets",
-    "nombre": "Entremets",
-    "description": "Por mesa",
-    "categorias": ["Tortas", "tortas-cumpleaños"],
-    "imageUrl": [
-      "../../assets/img/logo/entremets/macarons-2548810_1920.jpg",
-      "../../assets/img/logo/pasteles/strawberry-roll-1263099_1920.jpg",
-      "../../assets/img/logo/pasteles/cake-1284548_1920.jpg",
-      "../../assets/img/logo/entremets/persimmon-1154675_1920.jpg"
-      ],
-        "precio_venta": 15000,
-        "precio_regular": 20000,
-        "created_at": "2024-04-17T16:51:07.214x",
-        "slug": "tipo-entremets"
-
-  },
-  {
-    "_id": "tortas",
-    "nombre": "Tortas",
-    "description": "Para 20 personas",
-    "categorias": ["Tortas", "tortas-normales"],
-    "imageUrl": [
-      "../../assets/img/logo/pasteles/cake-1284548_1920.jpg",
-      "../../assets/img/logo/pasteles/strawberry-roll-1263099_1920.jpg",
-      "../../assets/img/logo/entremets/macarons-2548810_1920.jpg",
-      "../../assets/img/logo/entremets/persimmon-1154675_1920.jpg"
-      ],
-        "precio_venta": 60000,
-        "precio_regular": 70000,
-        "created_at": "2024-03-18T16:51:07.214x",
-        "slug": "tipo-tortas-estandar"
-
-  },
-  {
-    "_id": "entradas",
-    "nombre": "Entradas",
-    "description": "Para 20 personas",
-    "categorias": ["entradas"],
-    "imageUrl": [
-      "../../assets/img/logo/entremets/persimmon-1154675_1920.jpg",
-      "../../assets/img/logo/pasteles/strawberry-roll-1263099_1920.jpg",
-      "../../assets/img/logo/entremets/macarons-2548810_1920.jpg",
-      "../../assets/img/logo/pasteles/cake-1284548_1920.jpg"
-
-      ],
-        "precio_venta": 18000,
-        "precio_regular": 25000,
-        "created_at": "2024-03-19T16:51:07.214x",
-        "slug": "tipo-entradas"
-
   }
 
 ]
