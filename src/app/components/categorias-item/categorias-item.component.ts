@@ -2,6 +2,8 @@ import { Component, Input, OnInit } from '@angular/core';
 import { Categorias } from '../../models/categorias';
 import { Especialidades } from '../../models/especialidades';
 import { Entremets } from '../../models/entremets';
+import { Tortas } from '../../models/tortas';
+import { Entradas } from '../../models/entradas';
 
 
 
@@ -16,6 +18,8 @@ export class CategoriasItemComponent implements OnInit {
     @Input() categorias: Categorias | undefined;
     @Input() especialidades: Especialidades | undefined;
     @Input() entremets: Entremets | undefined;
+    @Input() tortas: Tortas | undefined;
+    @Input() entradas: Entradas | undefined;
     @Input() categoria: any;
 
     constructor() { }

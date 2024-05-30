@@ -23,6 +23,12 @@ import { EspecialidadesListComponent } from './components/especialidades-list/es
 import { EntremetsComponent } from './components/entremets/entremets.component';
 import { EntremetsItemComponent } from './components/entremets-item/entremets-item.component';
 import { EntremetsListComponent } from './components/entremets-list/entremets-list.component';
+import { TortasComponent } from './components/tortas/tortas.component';
+import { TortasItemComponent } from './components/tortas-item/tortas-item.component';
+import { TortasListComponent } from './components/tortas-list/tortas-list.component';
+import { EntradasComponent } from './components/entradas/entradas.component';
+import { EntradasItemComponent } from './components/entradas-item/entradas-item.component';
+import { EntradasListComponent } from './components/entradas-list/entradas-list.component';
 // import { ProductoListComponent } from './components/producto-list/producto-list.component';
 // import { ProductoItemComponent } from './components/producto-item/producto-item.component';
 // import { ProductoComponent } from './components/producto/producto.component';
@@ -49,6 +55,12 @@ import { EntremetsListComponent } from './components/entremets-list/entremets-li
     EntremetsComponent,
     EntremetsItemComponent,
     EntremetsListComponent,
+    TortasComponent,
+    TortasItemComponent,
+    TortasListComponent,
+    EntradasComponent,
+    EntradasItemComponent,
+    EntradasListComponent,
     // ProductoListComponent,
     // ProductoItemComponent,
     // ProductoComponent,

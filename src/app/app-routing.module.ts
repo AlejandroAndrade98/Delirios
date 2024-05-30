@@ -9,6 +9,8 @@ import { OfertasComponent } from './components/ofertas/ofertas.component';
 import { EventosComponent } from './components/eventos/eventos.component';
 import { EspecialidadesComponent } from './components/especialidades/especialidades.component';
 import { EntremetsComponent } from './components/entremets/entremets.component';
+import { TortasComponent } from './components/tortas/tortas.component';
+import { EntradasComponent } from './components/entradas/entradas.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -17,8 +19,10 @@ const routes: Routes = [
   { path: 'signin', component: SigninComponent },
   { path: 'signup', component: SignupComponent },
   { path: 'eventos', component: EventosComponent },
-  { path: 'home/especialidades/:id', component: EspecialidadesComponent },
-  { path: 'home/entremets/:id', component: EntremetsComponent }
+  { path: 'home/especialidades', component: EspecialidadesComponent },
+  { path: 'home/entremets', component: EntremetsComponent },
+  { path: 'home/tortas', component: TortasComponent },
+  { path: 'home/entradas', component: EntradasComponent }
 
 ];
 
