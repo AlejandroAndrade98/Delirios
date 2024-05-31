@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
+import { RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -8,12 +10,10 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { SigninComponent } from './components/auth/signin/signin.component';
 import { SignupComponent } from './components/auth/signup/signup.component';
-import { HttpClientModule } from '@angular/common/http';
 import { EventosComponent } from './components/eventos/eventos.component';
 import { OfertasItemComponent } from './ofertas-item/ofertas-item.component';
 import { OfertasListComponent } from './ofertas-list/ofertas-list.component';
 import { OfertasComponent } from './components/ofertas/ofertas.component';
-import { RouterModule } from '@angular/router';
 import { CategoriasItemComponent } from './components/categorias-item/categorias-item.component';
 import { CategoriasListComponent } from './components/categorias-list/categorias-list.component';
 import { CategoriasComponent } from './components/categorias/categorias.component';
@@ -33,6 +33,13 @@ import { EntradasListComponent } from './components/entradas-list/entradas-list.
 // import { ProductoItemComponent } from './components/producto-item/producto-item.component';
 // import { ProductoComponent } from './components/producto/producto.component';
 
+// servicios
+import { CategoriasService } from './services/categorias.service';
+import { EntradasService } from './services/entradas.service';
+import { OfertasService } from './services/producto.service';
+import { TortasService } from './services/tortas.service';
+import { EspecialidadesService } from './services/especialidades.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -48,7 +55,6 @@ import { EntradasListComponent } from './components/entradas-list/entradas-list.
     CategoriasComponent,
     CategoriasItemComponent,
     CategoriasListComponent,
-    CategoriasComponent,
     EspecialidadesComponent,
     EspecialidadesItemComponent,
     EspecialidadesListComponent,
@@ -65,15 +71,24 @@ import { EntradasListComponent } from './components/entradas-list/entradas-list.
     // ProductoItemComponent,
     // ProductoComponent,
   ],
+  
+
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
-    RouterModule
+    [HttpClientModule],
+    RouterModule.forRoot([])
   ],
+
+  
   providers: [
-    provideClientHydration()
+    CategoriasService,
+    EntradasService,
+    OfertasService,
+    TortasService,
+    EspecialidadesService,
   ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+

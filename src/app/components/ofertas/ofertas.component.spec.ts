@@ -1,4 +1,7 @@
+import { OfertasListComponent } from './../../ofertas-list/ofertas-list.component';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { RouterTestingModule } from '@angular/router/testing';
 
 import { OfertasComponent } from './ofertas.component';
 
@@ -8,7 +11,8 @@ describe('OfertasComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [OfertasComponent]
+      declarations: [OfertasComponent, OfertasListComponent], // Declara el componente
+      imports: [HttpClientTestingModule, RouterTestingModule]
     })
     .compileComponents();
     

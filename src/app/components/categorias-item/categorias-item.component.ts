@@ -7,10 +7,11 @@ import { Entradas } from '../../models/entradas';
 
 
 
+
 @Component({
-  selector: 'app-categorias-item',
-  templateUrl: './categorias-item.component.html',
-  styleUrl: './categorias-item.component.css'
+    selector: 'app-categorias-item',
+    templateUrl: './categorias-item.component.html',
+    styleUrl: './categorias-item.component.css' 
 })
 export class CategoriasItemComponent implements OnInit {
 
@@ -26,8 +27,13 @@ export class CategoriasItemComponent implements OnInit {
 
 
     ngOnInit(): void {
-        console.log(this.categorias)
-    }
+        console.log(this.categorias);
+        // Add your additional logic here
+        console.log(this.especialidades);
+        console.log(this.entremets);
+                console.log(this.tortas);
+                console.log(this.entradas);
+                console.log(this.categoria);
+            } // Add the closing curly brace here
+        
 }
-
-

@@ -1,6 +1,8 @@
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './components/header/header.component'; // Asegúrate de importar HeaderComponent
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core'; // Importa CUSTOM_ELEMENTS_SCHEMA si usas Web Components
 
 describe('AppComponent', () => {
   beforeEach(async () => {
@@ -9,8 +11,10 @@ describe('AppComponent', () => {
         RouterTestingModule
       ],
       declarations: [
-        AppComponent
+        AppComponent,
+        HeaderComponent // Declara HeaderComponent
       ],
+      schemas: [CUSTOM_ELEMENTS_SCHEMA] // Añade esto si usas Web Components
     }).compileComponents();
   });
 
