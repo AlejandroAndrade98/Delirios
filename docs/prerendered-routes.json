@@ -1,0 +1,13 @@
+{
+  "routes": [
+    "/eventos",
+    "/home",
+    "/home/entradas",
+    "/home/entremets",
+    "/home/especialidades",
+    "/home/tortas",
+    "/ofertas",
+    "/signin",
+    "/signup"
+  ]
+}
