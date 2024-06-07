@@ -1,0 +1,21 @@
+[
+  {
+    "_id": "especialidades",
+    "nombre": "Especialidades",
+    "description": "delicioso postre esponjoso y dulce, elaborado con una combinación de harina de trigo, azúcar, huevos, mantequilla o aceite, leche, polvo de hornear y extracto de vainilla. Estos ingredientes se mezclan cuidadosamente para crear una masa suave y homogénea, que luego se hornea hasta obtener una textura ligera y aireada. La harina proporciona la estructura, el azúcar añade dulzura, los huevos y el polvo de hornear ayudan a que la torta suba, mientras que la mantequilla o el aceite aportan riqueza y suavidad. La leche añade humedad, y el extracto de vainilla realza el sabor con su aroma distintivo. ",
+    "categorias": ["Tortas", "Cumpleaños"],
+    "imageUrl": [
+      "../../assets/img/logo/pasteles/strawberry-roll-1263099_1920.jpg",
+      "../../assets/img/logo/entremets/macarons-2548810_1920.jpg",
+      "../../assets/img/logo/pasteles/cake-1284548_1920.jpg",
+      "../../assets/img/logo/entremets/persimmon-1154675_1920.jpg"
+
+      ],
+        "precio_venta": 70000,
+        "precio_regular": 85000,
+        "created_at": "2024-03-14T16:51:07.214x",
+        "slug": "tipo-tortas"
+
+  }
+
+]
