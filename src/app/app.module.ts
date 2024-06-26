@@ -11,8 +11,8 @@ import { HomeComponent } from './components/home/home.component';
 import { SigninComponent } from './components/auth/signin/signin.component';
 import { SignupComponent } from './components/auth/signup/signup.component';
 import { EventosComponent } from './components/eventos/eventos.component';
-import { OfertasItemComponent } from './ofertas-item/ofertas-item.component';
-import { OfertasListComponent } from './ofertas-list/ofertas-list.component';
+import { OfertasItemComponent } from './components/ofertas-item/ofertas-item.component';
+import { OfertasListComponent } from './components/ofertas-list/ofertas-list.component';
 import { OfertasComponent } from './components/ofertas/ofertas.component';
 import { CategoriasItemComponent } from './components/categorias-item/categorias-item.component';
 import { CategoriasListComponent } from './components/categorias-list/categorias-list.component';
@@ -29,14 +29,14 @@ import { TortasListComponent } from './components/tortas-list/tortas-list.compon
 import { EntradasComponent } from './components/entradas/entradas.component';
 import { EntradasItemComponent } from './components/entradas-item/entradas-item.component';
 import { EntradasListComponent } from './components/entradas-list/entradas-list.component';
-// import { ProductoListComponent } from './components/producto-list/producto-list.component';
-// import { ProductoItemComponent } from './components/producto-item/producto-item.component';
-// import { ProductoComponent } from './components/producto/producto.component';
+import { ProductoListComponent } from './components/producto-list/producto-list.component';
+import { ProductoItemComponent } from './components/producto-item/producto-item.component';
+import { ProductoComponent } from './components/producto/producto.component';
 
 // servicios
 import { CategoriasService } from './services/categorias.service';
 import { EntradasService } from './services/entradas.service';
-import { OfertasService } from './services/producto.service';
+import { OfertasService } from './services/ofertas.service';
 import { TortasService } from './services/tortas.service';
 import { EspecialidadesService } from './services/especialidades.service';
 
@@ -67,9 +67,9 @@ import { EspecialidadesService } from './services/especialidades.service';
     EntradasComponent,
     EntradasItemComponent,
     EntradasListComponent,
-    // ProductoListComponent,
-    // ProductoItemComponent,
-    // ProductoComponent,
+    ProductoListComponent,
+    ProductoItemComponent,
+    ProductoComponent,
   ],
   
 

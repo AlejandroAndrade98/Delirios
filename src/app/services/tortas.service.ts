@@ -14,7 +14,7 @@ export class TortasService {
 
     constructor(private http: HttpClient) { }
   
-    getEspecialidades(): Observable<Tortas[]> {
+    getTortas(): Observable<Tortas[]> {
       return this.http.get<Tortas[]>(this.TortasUrl);
     }
   

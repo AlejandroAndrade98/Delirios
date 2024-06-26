@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { SigninComponent } from './components/auth/signin/signin.component';
 import { SignupComponent } from './components/auth/signup/signup.component';
 import { HomeComponent } from './components/home/home.component';
-// import { ProductoComponent } from './components/producto/producto.component';
+import { ProductoComponent } from './components/producto/producto.component';
 // import { CategoriasComponent } from './components/categorias/categorias.component';
 import { OfertasComponent } from './components/ofertas/ofertas.component';
 import { EventosComponent } from './components/eventos/eventos.component';
@@ -22,7 +22,8 @@ const routes: Routes = [
   { path: 'home/especialidades', component: EspecialidadesComponent },
   { path: 'home/entremets', component: EntremetsComponent },
   { path: 'home/tortas', component: TortasComponent },
-  { path: 'home/entradas', component: EntradasComponent }
+  { path: 'home/entradas', component: EntradasComponent },
+  { path: 'home/especialidades/producto/:id', component: ProductoComponent }
 
 ];
 

@@ -3,25 +3,26 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { apiServer } from '../components/apiServer';
 import { Ofertas } from '../models/Ofertas';
+import { Categorias } from '../models/categorias';
 // import { Categorias } from '../models/categorias';
-// import { Producto } from '../models/producto';
+import { Producto } from '../models/producto';
 
 @Injectable({
   providedIn: 'root'
 })
-export class OfertasService {
+// export class OfertasService {
 
-  private ofertasUrl: string = apiServer.serverUrls.ofertas;
-
-
-  constructor(private http: HttpClient) { }
+//   private ofertasUrl: string = apiServer.serverUrls.ofertas;
 
 
+//   constructor(private http: HttpClient) { }
 
-  getOfertas(): Observable<Ofertas[]> {
-    return this.http.get<Ofertas[]>(this.ofertasUrl);
-  }
-}
+
+
+//   getOfertas(): Observable<Ofertas[]> {
+//     return this.http.get<Ofertas[]>(this.ofertasUrl);
+//   }
+// }
 
 // export class CategoriasService {
    
@@ -35,19 +36,17 @@ export class OfertasService {
     
 //     }
 
-    // export class CategoriasService {
-        //   private productosUrl: string = apiServer.serverUrls.producto;
+    export class ProductoService {
+   
+        private ProductoUrl: string = apiServer.serverUrls.producto;
+  
+        constructor(private http: HttpClient) { }
       
-        
-        //   getProductos(): Observable<Producto[]> {
-        //     return this.http.get<Producto[]>(this.productosUrl);
-        //   }
-        
-        //   getProductos(): Observable<Producto[]> {
-        //     return this.http.get<Productos[]>(this.ProductosUrl);
-        //   }
-        
-        // }
+        getProducto(): Observable<Producto[]> {
+          return this.http.get<Producto[]>(this.ProductoUrl);
+        }
+      
+      }
 
     
 

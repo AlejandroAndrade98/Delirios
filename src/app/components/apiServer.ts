@@ -5,7 +5,8 @@ export const apiServer = {
         especialidades: 'http://localhost/assets/data/especialidades.json',
         entremets: 'http://localhost/assets/data/entremets.json',
         tortas: 'http://localhost/assets/data/tortas.json',
-        entradas: 'http://localhost/assets/data/entradas.json'
+        entradas: 'http://localhost/assets/data/entradas.json',
+        producto: 'http://localhost/assets/data/producto.json'
      },
      siteName: 'Delirios'
 }

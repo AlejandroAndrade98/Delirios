@@ -2,7 +2,7 @@ import { Component, OnInit, Input } from '@angular/core'; // Corregir el import 
 import { CategoriasService } from '../../services/categorias.service';
 import { Categorias } from '../../models/categorias';
 import { Ofertas } from '../../models/Ofertas';
-import { OfertasService } from '../../services/producto.service';
+import { OfertasService } from '../../services/ofertas.service';
 
 @Component({
   selector: 'app-home',

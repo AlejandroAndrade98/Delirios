@@ -1,4 +1,4 @@
-<!-- <section class="text-gray-600 body-font overflow-hidden">
+<section class="text-gray-600 body-font overflow-hidden">
     <div class="container px-5 py-24 mx-auto">
       <div class="lg:w-4/5 mx-auto flex flex-wrap">
         <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" 
@@ -72,7 +72,7 @@
           <div class="flex">
             <span class="title-font font-medium text-2xl text-gray-900">
               <p class="mt-1">${{ producto?.precio_venta || 0 }} <del>${{( producto?.precio_regular || 0 )}}</del>
-              <span class="text-red-500 ml-3">{{ producto ? ((producto.precio_regular - producto.precio_venta )/(-producto.precio_regular) | percent) : null  }}</span></p></span>
+              <span class="text-red-500 ml-3">{{ producto ? ((producto.precio_regular - producto.precio_venta )/(-producto.precio_regular) ) : null  }}</span></p></span>
             <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Button</button>
             <button class="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
               <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -83,4 +83,4 @@
         </div>
       </div>
     </div>
-  </section> -->
+  </section>

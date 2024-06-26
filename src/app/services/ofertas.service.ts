@@ -23,11 +23,3 @@ export class OfertasService {
       
     }
 }
-
-beforeEach(() => {
-    TestBed.configureTestingModule({
-        imports: [HttpClientModule],
-        providers: [OfertasService],
-    });
-   
-});

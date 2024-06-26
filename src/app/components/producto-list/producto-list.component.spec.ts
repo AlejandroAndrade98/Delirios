@@ -1,23 +1,23 @@
-// import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-// import { ProductoListComponent } from './producto-list.component';
+import { ProductoListComponent } from './producto-list.component';
 
-// describe('ProductoListComponent', () => {
-//   let component: ProductoListComponent;
-//   let fixture: ComponentFixture<ProductoListComponent>;
+describe('ProductoListComponent', () => {
+  let component: ProductoListComponent;
+  let fixture: ComponentFixture<ProductoListComponent>;
 
-//   beforeEach(async () => {
-//     await TestBed.configureTestingModule({
-//       declarations: [ProductoListComponent]
-//     })
-//     .compileComponents();
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ProductoListComponent]
+    })
+    .compileComponents();
     
-//     fixture = TestBed.createComponent(ProductoListComponent);
-//     component = fixture.componentInstance;
-//     fixture.detectChanges();
-//   });
+    fixture = TestBed.createComponent(ProductoListComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
 
-//   it('should create', () => {
-//     expect(component).toBeTruthy();
-//   });
-// });
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
